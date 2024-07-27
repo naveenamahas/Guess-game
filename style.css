@@ -1,0 +1,78 @@
+ body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; 
+     align-items: center;
+    
+     
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+        height: 100vh; /* Ensure body takes full viewport height */
+        background-image: url('image7.jpg'); /* Replace with your image path */
+        background-attachment: fixed; /* Fix the background image in place */
+        background-size: cover; /* Cover the entire viewport */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /*Prevent repeating the image
+         
+ }*/
+      
+
+    h1 {
+        text-align: left ;
+         color:rgb(58, 210, 210);
+         text-decoration: overline underline; 
+
+    }
+
+
+
+.box {
+    
+    
+    text-align: left;
+    padding: 10px;
+    text-shadow: none
+   
+
+}
+p{
+    color: antiquewhite;
+}
+    
+#result {
+    font-size: 18px;
+    margin-top: 20px;
+} 
+
+
+input[type="number"] {
+    width: 70%;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px 20px; /* Adjusted padding for better button size */
+    background-color: #ba2e9c;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block; /* Ensures proper alignment */
+    margin: 5px; /* Optional: Adds spacing between buttons if multiple buttons are present */
+}
+
+button:hover {
+    background-color: #3be0e0; /* Darker shade for hover effect */
+}
+
+
+ 
+}
